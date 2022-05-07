@@ -1,0 +1,158 @@
+body {
+  background-color: inherit;
+  text-align: center;
+  color: inherit;
+  font-family: 'Merriweather', serif;
+}
+p{
+  line-height: 1.8;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+}
+
+.middle-container{
+  text-align: center;
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 10px;
+}
+
+.intro{
+  width: 30%; /*size of text within it's parent container*/
+  margin: auto; /*sets the paragraph to the center*/
+}
+
+.experience{
+  width: auto;
+
+}
+
+.skills{
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-style: italic;
+  color: #66BFBF;
+}
+
+h2 {
+  text-align: center;
+  text-emphasis: strong;
+  color: #66BFBF;
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Monsterrat', sans-serif;
+  text-emphasis: strong;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px
+}
+
+/*.mountain{
+  margin: 10%
+}*/
+
+
+.profile-pic{
+  position: relative;
+  top: 10px;
+  border-radius: 20%; /*used to change picture from cornered to round edges. Higher % generates more and more round image*/
+}
+
+.coding-pic{
+  width: 100px;
+  height: 70px;
+}
+
+.profile-pic{
+  width: 250px;
+  height: 180px;
+}
+
+hr {
+  border: dotted #EAF6F6 6PX;
+  border-bottom: none;
+  margin: 70px auto;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px; /*margin settings help space elements apart to make them more clear and readable*/
+  text-decoration: none; /*removing underline on clickable buttons at the bottom*/
+}
+
+a:hover{
+  color: #eaf6f6; /*To change color of the a. tags when we hover over it to indicate that it's clickable*/
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px; /*40px at the top, auto on left and right and 60px at the bottom*/
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0; /*20 pixels at the top and 0 pixels at the bottom to make sure it goes all the way down and not disrupt web view of main important content*/
+}
+
+/*visit https://www.css3buttongenerator.com/ to generate button style, properties and layout. Generate class="btn" first on index.html document*/
+.btn {
+  background: #11CDD4;
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -ms-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -o-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -webkit-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -ms-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -o-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  background: -webkit-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+
+
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
